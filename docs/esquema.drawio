@@ -1,0 +1,183 @@
+<mxfile host="65bd71144e">
+    <diagram id="pfPjx-0bxCFx2aaR9cje" name="Ej_1">
+        <mxGraphModel dx="735" dy="475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="7" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2" target="6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="SW_ON=1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="7" vertex="1" connectable="0">
+                    <mxGeometry x="-0.1791" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="Led_OFF" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="130" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="RESET" style="endArrow=classic;html=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="200" y="100" as="sourcePoint"/>
+                        <mxPoint x="250" y="140" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="MEF MOOR" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="210" y="10" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="SW_OFF=1" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" parent="1" source="6" target="2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Led_ON" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="130" width="120" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="Q4XXuZKKQPRUEUrz_bR3" name="Pulsador-MEF_1">
+        <mxGraphModel dx="488" dy="132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2_HbCuCsoi25lD-2b9-E-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;u style=&quot;&quot;&gt;&lt;b&gt;Pulsador anti rebote MEF&lt;/b&gt;&lt;/u&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="10" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="2_HbCuCsoi25lD-2b9-E-5" value="pulsado lectura 1/&lt;br&gt;inicio contador" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="2_HbCuCsoi25lD-2b9-E-2" target="2_HbCuCsoi25lD-2b9-E-3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2_HbCuCsoi25lD-2b9-E-2" value="lectura_1" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="190" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="2_HbCuCsoi25lD-2b9-E-9" value="Tiempo alcanzado/&lt;br&gt;cambio de estado" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="2_HbCuCsoi25lD-2b9-E-3" target="2_HbCuCsoi25lD-2b9-E-8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2_HbCuCsoi25lD-2b9-E-3" value="espera_1" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="190" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="2_HbCuCsoi25lD-2b9-E-4" value="no pulsado/no acción" style="edgeStyle=none;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="2_HbCuCsoi25lD-2b9-E-2" target="2_HbCuCsoi25lD-2b9-E-2">
+                    <mxGeometry x="-0.106" y="13" relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="238" y="160"/>
+                        </Array>
+                        <mxPoint x="-16" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2_HbCuCsoi25lD-2b9-E-7" value="tiempo no alcanzado/&lt;br&gt;sigo esperando" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=14;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2_HbCuCsoi25lD-2b9-E-3" target="2_HbCuCsoi25lD-2b9-E-3">
+                    <mxGeometry x="0.0228" y="26" relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="590" y="140"/>
+                            <mxPoint x="650" y="150"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2_HbCuCsoi25lD-2b9-E-11" value="sigue pulsado/&lt;br&gt;incremento contador" style="edgeStyle=none;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.65;entryY=1.038;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" edge="1" parent="1" source="2_HbCuCsoi25lD-2b9-E-8" target="2_HbCuCsoi25lD-2b9-E-2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2_HbCuCsoi25lD-2b9-E-12" value="no sigue pulsado/&lt;br&gt;no incremento el contador" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.45;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" edge="1" parent="1" source="2_HbCuCsoi25lD-2b9-E-8" target="2_HbCuCsoi25lD-2b9-E-2">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="310" y="410"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2_HbCuCsoi25lD-2b9-E-8" value="Lectura_2" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="390" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="2_HbCuCsoi25lD-2b9-E-10" value="si pasado el tiempo de espera del rebote vuelvo a leer la entrada y el pulsador sigue presionado, incremento el contador de pulsos." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="334" width="160" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="2_HbCuCsoi25lD-2b9-E-13" value="Opción 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="60" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="Ua2hzQA48gzRPUqhe6NQ-1" value="reset" style="endArrow=classic;html=1;fontSize=14;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="2_HbCuCsoi25lD-2b9-E-2">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="120" y="170" as="sourcePoint"/>
+                        <mxPoint x="480" y="210" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="170" y="200"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="PfXhrZtdPD1b5mQbUqvo" name="Pulsador-MEF_2">
+        <mxGraphModel dx="566" dy="153" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="MgqmEokrHMuUnCu4Zc76-1" value="pulsado lectura 1/&lt;br&gt;inicio contador" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="MgqmEokrHMuUnCu4Zc76-2" target="MgqmEokrHMuUnCu4Zc76-4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="MgqmEokrHMuUnCu4Zc76-2" value="lectura_1" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="190" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="MgqmEokrHMuUnCu4Zc76-3" value="Tiempo alcanzado/&lt;br&gt;cambio de estado" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="MgqmEokrHMuUnCu4Zc76-4" target="MgqmEokrHMuUnCu4Zc76-9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="MgqmEokrHMuUnCu4Zc76-4" value="espera_1" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="190" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="MgqmEokrHMuUnCu4Zc76-5" value="no pulsado/no acción" style="edgeStyle=none;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="MgqmEokrHMuUnCu4Zc76-2" target="MgqmEokrHMuUnCu4Zc76-2">
+                    <mxGeometry x="-0.106" y="13" relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="238" y="160"/>
+                        </Array>
+                        <mxPoint x="-16" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="MgqmEokrHMuUnCu4Zc76-6" value="tiempo no alcanzado/&lt;br&gt;sigo esperando" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=14;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MgqmEokrHMuUnCu4Zc76-4" target="MgqmEokrHMuUnCu4Zc76-4">
+                    <mxGeometry x="0.0228" y="26" relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="590" y="140"/>
+                            <mxPoint x="650" y="150"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="MgqmEokrHMuUnCu4Zc76-7" value="no sigue pulsado/&lt;br&gt;no incremento el contador" style="edgeStyle=none;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.65;entryY=1.038;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" edge="1" parent="1" source="MgqmEokrHMuUnCu4Zc76-9" target="MgqmEokrHMuUnCu4Zc76-2">
+                    <mxGeometry x="-0.2226" y="9" relative="1" as="geometry">
+                        <mxPoint y="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ORxMT2TcckcpPObAcFtN-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;si sigue pulsado/&lt;br&gt;espero a la despulsación&amp;nbsp;&lt;br&gt;&lt;/font&gt;" style="edgeStyle=none;html=1;fontSize=18;" edge="1" parent="1" source="MgqmEokrHMuUnCu4Zc76-9" target="ORxMT2TcckcpPObAcFtN-3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="MgqmEokrHMuUnCu4Zc76-9" value="Lectura_2" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="390" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="MgqmEokrHMuUnCu4Zc76-10" value="si pasado el tiempo de espera del rebote vuelvo a leer la entrada y el pulsador sigue presionado, incremento el contador de pulsos." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="334" width="160" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="MgqmEokrHMuUnCu4Zc76-11" value="Opción 2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="60" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="ORxMT2TcckcpPObAcFtN-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;u style=&quot;&quot;&gt;&lt;b&gt;Pulsador anti rebote MEF&lt;/b&gt;&lt;/u&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="10" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="ORxMT2TcckcpPObAcFtN-6" value="despulsación/&lt;br&gt;incremento el contador" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="ORxMT2TcckcpPObAcFtN-3" target="MgqmEokrHMuUnCu4Zc76-2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ORxMT2TcckcpPObAcFtN-3" value="espera_2&lt;br&gt;sin timer" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="390" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="ORxMT2TcckcpPObAcFtN-5" value="sigue pulsado/&lt;br&gt;no hago nada" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="ORxMT2TcckcpPObAcFtN-3" target="ORxMT2TcckcpPObAcFtN-3">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="200" y="500"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oS_SEDqNmySTUWzk4IN9-1" value="reset" style="endArrow=classic;html=1;fontSize=14;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="120" y="170" as="sourcePoint"/>
+                        <mxPoint x="219.9999999999966" y="230" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="170" y="200"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
