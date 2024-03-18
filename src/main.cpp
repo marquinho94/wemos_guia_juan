@@ -17,7 +17,7 @@ typedef enum {lectura_1, espera_1, lectura_2} pulsador_MEf_1;
 
 pulsador_MEf_1 P_1_estado=lectura_1, P_2_estado=lectura_1;
 
-int contador_pulsador_1, contador_pulsador2;
+int contador_pulsador_1, contador_pulsador_2;
 
 void funcion_pulsador_1 (void){
 
@@ -59,7 +59,7 @@ void funcion_pulsador_2 (void){
 
   static unsigned long ActualMilis;
 
-  switch (P_1_estado)
+  switch (P_2_estado)
   {
   case lectura_1:
     if(!digitalRead(INPUT_MEF_sw2)){
