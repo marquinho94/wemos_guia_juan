@@ -170,3 +170,27 @@ void loop(){
 
 }
 
+
+
+// Ejemplo de ej 3 con libreria string 
+/* 
+String textoLargo = "Este es un texto largo que quiero desplazar.";
+int indiceDesplazamiento = 0;
+
+void setup() {
+    Serial.begin(9600);
+}
+
+void loop() {
+    String subcadena = textoLargo.substring(indiceDesplazamiento, indiceDesplazamiento + 30);
+    Serial.println(subcadena);
+
+    indiceDesplazamiento++;
+
+    if (indiceDesplazamiento >= textoLargo.length()) {
+        indiceDesplazamiento = 0;
+    }
+
+    delay(100); // Espera 100 milisegundos entre cada desplazamiento
+}
+ */
